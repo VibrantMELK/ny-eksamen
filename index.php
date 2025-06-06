@@ -5,7 +5,7 @@ $database = "butikk";
 $tabell = "solgt";
 
 try {
-    // lager en variabel = db som holder på database tilkoblinegn vår
+    // lager en variabel = db som holder på database tilkoblingen vår
     //$db = new PDO("mysql:host=localhost;dbname=$database", $bruker, $passord);
     echo <<< EOT
     <html>
@@ -18,7 +18,5 @@ try {
         <h1>TODO List</h1>
         <p>Welcome to your TODO list application!</p>
         <ol>
-EOT;
-
-
+EOT; 
 }
