@@ -6,7 +6,7 @@ $tabell = "solgt";
 
 try {
     // lager en variabel = db som holder på database tilkoblinegn vår
-    $db = new PDO("mysql:host=localhost;dbname=$database", $bruker, $passord);
+    //$db = new PDO("mysql:host=localhost;dbname=$database", $bruker, $passord);
     echo <<< EOT
     <html>
     <head>
