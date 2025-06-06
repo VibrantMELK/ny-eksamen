@@ -19,4 +19,7 @@ try {
         <p>Welcome to your TODO list application!</p>
         <ol>
 EOT; 
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
 }
